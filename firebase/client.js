@@ -68,6 +68,9 @@ const firebaseConfig = {
         const id = doc.id
         const { createdAt } = data
 
+
+        
+
         return {
           ...data,
           id,

@@ -10,6 +10,8 @@ export const USER_STATES = {
 export default function useUser() {
     const [ userInfo, setUserInfo ] = useState(USER_STATES.NOT_KNOW)
 
+
+    
     useEffect(() => {
         handleOnAuthStateChanged(setUserInfo)
     },[])

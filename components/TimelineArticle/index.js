@@ -10,6 +10,9 @@ export default function TimelineArticle( { timelineInfo } ) {
     const {name, username, avatar, message, title, tags, createdAt} = timelineInfo
     const timeAgo = useTimeAgo(createdAt)    
 
+
+
+    
     return(
         <>
             <article >
